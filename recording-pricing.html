@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+  <button class="phone-header-btn" data-phone="0545707311" aria-label="Call">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0545707311';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -827,11 +827,11 @@
         <div class="rpi-image-overlay" aria-hidden="true"></div>
         <!-- Floating tags -->
         <div class="rpi-tag rpi-tag-mic">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
           <span>הקלטה מקצועית</span>
         </div>
         <div class="rpi-tag rpi-tag-mix">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
           <span>מיקס ומאסטרינג</span>
         </div>
       </div>
@@ -843,7 +843,7 @@
 
   <!-- Bottom divider: glowing line expanding to next section -->
   <div class="rpi-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="rpi-divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stop-color="#04070D" stop-opacity="1"></stop>
@@ -851,7 +851,7 @@
           <stop offset="100%" stop-color="#04070D" stop-opacity="1"></stop>
         </linearGradient>
         <filter id="rpi-glow-filter">
-          <feGaussianBlur in="SourceGraphic" stddeviation="2" result="blur"></feGaussianBlur>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"></feGaussianBlur>
           <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
         </filter>
       </defs>
@@ -878,7 +878,7 @@
         <div class="rpp-card-top">
           <div class="rpp-card-badge">פופולרי</div>
           <div class="rpp-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="10,8 16,12 10,16 10,8" fill="currentColor" stroke="none"></polygon></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="10,8 16,12 10,16 10,8" fill="currentColor" stroke="none"></polygon></svg>
           </div>
           <h3 class="rpp-card-title">הקלטת סינגל</h3>
           <p class="rpp-card-desc">מושלם לאמנים שרוצים להוציא שיר אחד מוכן ומלוטש לשוק המוזיקה. הקלטת סינגל מחיר שקוף ללא הפתעות.</p>
@@ -903,7 +903,7 @@
         <div class="rpp-featured-tag">הכי מבוקש</div>
         <div class="rpp-card-top">
           <div class="rpp-card-icon rpp-card-icon--featured">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
           </div>
           <h3 class="rpp-card-title">הקלטת EP</h3>
           <p class="rpp-card-desc">פרויקט קצר של 3–5 שירים — אידיאלי לאמנים שרוצים לבנות קטלוג מוזיקלי ולהגיע לפלטפורמות הסטרימינג עם תוכן עשיר.</p>
@@ -928,7 +928,7 @@
       <article class="rpp-card rpp-card--album">
         <div class="rpp-card-top">
           <div class="rpp-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
+            <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18M9 21V9"></path></svg>
           </div>
           <h3 class="rpp-card-title">הקלטת אלבום</h3>
           <p class="rpp-card-desc">חבילת הקלטת אלבום מוזיקה מלאה לאמנים רציניים — פרויקט מקיף מהתחלה ועד הסוף עם ליווי צמוד ומקצועי.</p>
@@ -955,7 +955,7 @@
     <div class="rpp-custom-note">
       <div class="rpp-custom-note-inner">
         <div class="rpp-custom-note-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
         <div class="rpp-custom-note-text">
           <strong>פרויקט מיוחד? נתפור לכם חבילה אישית</strong>
@@ -968,7 +968,7 @@
 
   <!-- Bottom curved dark sweep divider -->
   <div class="rpp-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,90 L0,45 Q180,0 360,30 T720,15 T1080,35 T1440,10 L1440,90 Z" fill="#070A12"></path>
     </svg>
   </div>
@@ -1095,7 +1095,7 @@
 
   <!-- Bottom divider: gold pulse line breaking to dots transitioning to light section -->
   <div class="rpi-bottom-divider-wrapper" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1280 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1280 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Gold pulse line -->
       <line x1="0" y1="20" x2="1280" y2="20" stroke="var(--accent)" stroke-width="1" stroke-opacity="0.55" stroke-dasharray="3 6"></line>
       <!-- Dots scattered along the line -->
@@ -1219,7 +1219,7 @@
 
   <!-- Bottom divider: magenta-to-cyan fade strip -->
   <div class="rpc-bottom-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="rpc-divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" stop-color="#FF4FA3" stop-opacity="0.7"></stop>
@@ -1249,7 +1249,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-glow-top"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><a href="/" class="footer-logo-link"><img src="/assets/muziaeliki2026-logo.webp" alt="muziaeliki2026" class="logo"></a><p class="footer-tagline">סטודיו מוזיקה ובידור ברמה עולמית — מהחלום להקלטה, מהאמן להצלחה.</p><div class="footer-social"><a href="https://facebook.com/share/18PHvGTRA1/muziaeliki2026" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="https://instagram.com/muziaeliki_2026?igsh=MTdycGl1OW4zbjA5ZQ==muziaeliki_2026?igsh=MTdycGl1OW4zbjA5ZQ==muziaeliki2026https://www.instagram.com/muziaeliki_2026?igsh=MTdycGl1OW4zbjA5ZQ==" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a><a href="https://wa.me/972545707311" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h4><ul class="footer-nav"><li><a href="/success-story"><i class="fas fa-star nav-icon"></i>סיפור הצלחה</a></li><li><a href="/recording-pricing"><i class="fas fa-microphone nav-icon"></i>הקלטה ומחירים</a></li><li><a href="/artist-representation"><i class="fas fa-user-tie nav-icon"></i>ייצוג אמנים</a></li><li><a href="/book-studio"><i class="fas fa-calendar-check nav-icon"></i>הזמנת סטודיו וסושיאל</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><span class="heading-accent"></span>צור קשר</h4><ul class="footer-contact-list"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><a href="mailto:[business_email]">[business_email]</a></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><a href="tel:[business_phone]">[business_phone]</a></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span>[business_address]</span></a></li></ul></div><div class="footer-col footer-studio"><h4 class="footer-heading"><span class="heading-accent"></span>הסטודיו</h4><div class="studio-card"><div class="studio-card-inner"><i class="fas fa-headphones-alt studio-icon"></i><p class="studio-text">פתוח 7 ימים בשבוע<br>לפגישת היכרות ראשונה — ללא עלות</p><a href="/book-studio" class="studio-cta">קבע עכשיו</a></div></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><div class="footer-copyright">© 2026 muziaeliki2026. כל הזכויות שמורות.</div><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><span class="legal-sep">|</span><a href="/terms">תנאי שימוש</a><span class="legal-sep">|</span><a href="/accessibility">נגישות</a><span class="legal-sep">|</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-glow-top"></div><div class="footer-container"><div class="footer-top"><div class="footer-col footer-brand"><a href="/" class="footer-logo-link"><img src="/assets/muziaeliki2026-logo.webp" alt="muziaeliki2026" class="logo"></a><p class="footer-tagline">סטודיו מוזיקה ובידור ברמה עולמית — מהחלום להקלטה, מהאמן להצלחה.</p><div class="footer-social"><a href="https://facebook.com/share/18PHvGTRA1/muziaeliki2026" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a><a href="https://instagram.com/muziaeliki_2026?igsh=MTdycGl1OW4zbjA5ZQ==" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a><a href="https://wa.me/972545707311" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links"><h4 class="footer-heading"><span class="heading-accent"></span>ניווט מהיר</h4><ul class="footer-nav"><li><a href="/success-story"><i class="fas fa-star nav-icon"></i>סיפור הצלחה</a></li><li><a href="/recording-pricing"><i class="fas fa-microphone nav-icon"></i>הקלטה ומחירים</a></li><li><a href="/artist-representation"><i class="fas fa-user-tie nav-icon"></i>ייצוג אמנים</a></li><li><a href="/book-studio"><i class="fas fa-calendar-check nav-icon"></i>הזמנת סטודיו וסושיאל</a></li></ul></div><div class="footer-col footer-contact"><h4 class="footer-heading"><span class="heading-accent"></span>צור קשר</h4><ul class="footer-contact-list"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><a href="mailto:musialiki2026@gmail.com">musialiki2026@gmail.com</a></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><a href="tel:0545707311">0545707311</a></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span>אחאב 2, באר שבע, ישראל, 8446711, ישראל</span></a></li></ul></div><div class="footer-col footer-studio"><h4 class="footer-heading"><span class="heading-accent"></span>הסטודיו</h4><div class="studio-card"><div class="studio-card-inner"><i class="fas fa-headphones-alt studio-icon"></i><p class="studio-text">פתוח 7 ימים בשבוע<br>לפגישת היכרות ראשונה — ללא עלות</p><a href="/book-studio" class="studio-cta">קבע עכשיו</a></div></div></div></div><div class="footer-divider"></div><div class="footer-bottom"><div class="footer-copyright">© 2026 muziaeliki2026. כל הזכויות שמורות.</div><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><span class="legal-sep">|</span><a href="/terms">תנאי שימוש</a><span class="legal-sep">|</span><a href="/accessibility">נגישות</a><span class="legal-sep">|</span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></footer>
   
   <a href="https://wa.me/972545707311" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
