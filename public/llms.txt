@@ -1,51 +1,69 @@
-# Business — Generative Engine Optimization Map
+# muziaeliki2026 — Generative Engine Optimization Map
+
+> muziaeliki2026 is a music recording studio with an inspiring success story, offering professional recording services for singles and albums with clear pricing. The studio provides personal artist representation and management, along with online appointment booking for studio sessions. The brand has a strong social media presence on Instagram and Facebook, and aims to be a full-service creative hub for musicians and artists.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://example.com
+https://muziaeliki2026.zappy5.app
 אולפן ההקלטות שהפך אמנים לכוכבים. הקלטת סינגל ואלבום במחירים שקופים, ייצוג אמנים אישי וקביעת תור אונליין. הצעד הבא שלך מתחיל כאן.
 
 ### סיפור הצלחה
-https://example.com/success-story
+https://muziaeliki2026.zappy5.app/success-story
 גלה איך אולפן הקלטות אחד הפך לחלום של אמנים בכל הארץ. סיפור ההצלחה שלנו יוכיח לך שגם הסינגל שלך יכול לכבוש את הרשימות.
 
 ### הקלטה ומחירים
-https://example.com/recording-pricing
+https://muziaeliki2026.zappy5.app/recording-pricing
 הקלטת סינגל מחיר שמתאים לכל ארנק, מחירון הקלטת אלבום מלא ללא הפתעות. בדוק את החבילות שלנו ובחר את המסלול שיקפיץ את הקריירה שלך קדימה.
 
 ### ייצוג אמנים
-https://example.com/artist-representation
+https://muziaeliki2026.zappy5.app/artist-representation
 ניהול אמנים אישי ומקצועי שמתאים בדיוק לך. אנחנו מלווים זמרים ומוזיקאים מהקלטת הסינגל הראשון ועד לבמות הגדולות — כי הכישרון שלך ראוי לייצוג אמיתי.
 
 ### הזמנת סטודיו וסושיאל
-https://example.com/book-studio
+https://muziaeliki2026.zappy5.app/book-studio
 קביעת תור לאולפן הקלטות אונליין בקלות ובמהירות — בחר שעה, אשר ותתחיל להקליט. עקוב אחרינו באינסטגרם ופייסבוק לתוכן בלעדי ועדכונים שוטפים.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://muziaeliki2026.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://muziaeliki2026.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://muziaeliki2026.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About muziaeliki2026
+muziaeliki2026 is a music recording studio with an inspiring success story, offering professional recording services for singles and albums with clear pricing. The studio provides personal artist representation and management, along with online appointment booking for studio sessions. The brand has a strong social media presence on Instagram and Facebook, and aims to be a full-service creative hub for musicians and artists.
+
+## Services/Products
+- הקלטת סינגל
+- הקלטת אלבום
+- מחירון שירותים
+- ייצוג אמנים אישי
+- קביעת תורים לפגישות באולפן אונליין
+- קישורים לאינסטגרם ופייסבוק
+
+## Target Audience
+אמנים, זמרים, מוזיקאים המחפשים אולפן הקלטות
+
+## Industry
+מוזיקה ובידור
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://muziaeliki2026.zappy5.app/sitemap.xml
+- **Robots.txt**: https://muziaeliki2026.zappy5.app/robots.txt
