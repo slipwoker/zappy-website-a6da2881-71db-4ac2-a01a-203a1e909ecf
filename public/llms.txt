@@ -1,6 +1,4 @@
-# muziaeliki2026 — Generative Engine Optimization Map
-
-> muziaeliki2026 is a music recording studio with an inspiring success story, offering professional recording services for singles and albums with clear pricing. The studio provides personal artist representation and management, along with online appointment booking for studio sessions. The brand has a strong social media presence on Instagram and Facebook, and aims to be a full-service creative hub for musicians and artists.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -44,23 +42,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About muziaeliki2026
-muziaeliki2026 is a music recording studio with an inspiring success story, offering professional recording services for singles and albums with clear pricing. The studio provides personal artist representation and management, along with online appointment booking for studio sessions. The brand has a strong social media presence on Instagram and Facebook, and aims to be a full-service creative hub for musicians and artists.
-
-## Services/Products
-- הקלטת סינגל
-- הקלטת אלבום
-- מחירון שירותים
-- ייצוג אמנים אישי
-- קביעת תורים לפגישות באולפן אונליין
-- קישורים לאינסטגרם ופייסבוק
-
-## Target Audience
-אמנים, זמרים, מוזיקאים המחפשים אולפן הקלטות
-
-## Industry
-מוזיקה ובידור
-
+## About Business
 ---
 
 # Additional Resources
